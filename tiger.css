@@ -603,7 +603,7 @@ div#tlogins::-webkit-scrollbar-button {
 }
 
 div#tlogins::-webkit-scrollbar-thumb {
-    background: #97332c;
+    background: #0d7fb9;
     border: 71px none #fff;
     border-radius: 31px;
     background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.2) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.2) 50%,rgba(255,255,255,.2) 75%,transparent 75%,transparent)!important
