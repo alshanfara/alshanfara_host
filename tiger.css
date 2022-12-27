@@ -45,7 +45,7 @@ font.asim11 {
 }
 
 .light {
-    background: repeating-linear-gradient(45deg,rgba(255,255,255,.8),rgb(255,255,255) 100px,#ffffffb0 0,#fff6f699 200px),repeating-linear-gradient(-45deg,rgba(255,255,255,.5),rgba(255,255,255,.93) 100px,#b3adadd1 0,#ffffffe6 200px)!important
+    background: repeating-linear-gradient(45deg,rgba(255,255,255,.8),rgb(255,255,255) 100px,#ffffffb0 0,#fff6f699 200px),repeating-linear-gradient(-45deg,rgba(255,255,255,.5),rgba(255,255,255,.93) 100px,#b3adad 0,#ffffffe6 200px)!important;
 }
 
 .fl.ustat {
@@ -603,7 +603,7 @@ div#tlogins::-webkit-scrollbar-button {
 }
 
 div#tlogins::-webkit-scrollbar-thumb {
-    background: #0d7fb9;
+    background: #97332c;
     border: 71px none #fff;
     border-radius: 31px;
     background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.2) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.2) 50%,rgba(255,255,255,.2) 75%,transparent 75%,transparent)!important
@@ -978,7 +978,7 @@ a#asim7 {
     border-radius: 0px!important;
 }
 
-a#asim7,.ae.fa.label.label-primary.fa-user,div#tlogins button.btn.btn-primary,#as43,ul.nav.nav-tabs>li.active>a,ul.nav.nav-tabs,ul.nav.nav-tabs>li>a,.label-danger,.broadcasters,a.btn.minix.fa.fa-comment,button.btn,.label-primary,.btn-primary,.bg-primary,.label-primary:hover,.btn-primary:hover,.btn-primary:focus,label.fl.label.loginstat {border-radius: 0px;}
+a#asim7,.ae.fa.label.label-primary.fa-user,div#tlogins button.btn.btn-primary,#as43,ul.nav.nav-tabs>li.active>a,ul.nav.nav-tabs,ul.nav.nav-tabs>li>a,.label-danger,.broadcasters,a.btn.minix.fa.fa-comment,button.btn,.label-primary,.btn-primary,.bg-primary,.label-primary:hover,.btn-primary:hover,.btn-primary:focus,label.fl.label.loginstat {border-radius: 0px;border: 1px solid;}
 
 .bg-primary {
     border-radius: 70px 70px 0 0px!important;
