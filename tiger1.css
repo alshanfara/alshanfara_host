@@ -41,7 +41,7 @@ font.asim11 {
 
 .broadcasters>div>.prod {
     background-image: url(https://f.top4top.io/p_2148uz0nz1.gif);
-    border-radius: 15px 5px!important
+    /* border-radius: 15px 5px!important; */
 }
 
 .light {
@@ -988,7 +988,3 @@ a#asim7,.ae.fa.label.label-primary.fa-user,div#tlogins button.btn.btn-primary,#a
 
 #tlogins .fa-eye{margin: 44px 0px 0px 0px!important;}
 #settings .label.label-primary{border: 1px solid;}
-
-#d0 .label-primary, #d0 .btn-primary {
-    border: 1px solid #ffffff!important;
-}
