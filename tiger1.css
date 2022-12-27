@@ -988,3 +988,7 @@ a#asim7,.ae.fa.label.label-primary.fa-user,div#tlogins button.btn.btn-primary,#a
 
 #tlogins .fa-eye{margin: 44px 0px 0px 0px!important;}
 #settings .label.label-primary{border: 1px solid;}
+
+#d0 .label-primary, #d0 .btn-primary {
+    border: 1px solid #ffffff!important;
+}
