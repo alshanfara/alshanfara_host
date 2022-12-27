@@ -45,7 +45,7 @@ font.asim11 {
 }
 
 .light {
-    background: repeating-linear-gradient(45deg,rgba(255,255,255,.8),rgb(255,255,255) 100px,#ffffffb0 0,#fff6f699 200px),repeating-linear-gradient(-45deg,rgba(255,255,255,.5),rgba(255,255,255,.93) 100px,#b3adad 0,#ffffffe6 200px)!important;
+    background: repeating-linear-gradient(45deg,rgba(255,255,255,.8),rgb(255,255,255) 100px,#ffffffb0 0,#fff6f699 200px),repeating-linear-gradient(-45deg,rgba(255,255,255,.5),rgba(255,255,255,.93) 100px,#b3adadd1 0,#ffffffe6 200px)!important
 }
 
 .fl.ustat {
@@ -603,7 +603,7 @@ div#tlogins::-webkit-scrollbar-button {
 }
 
 div#tlogins::-webkit-scrollbar-thumb {
-    background: #97332c;
+    background: #0d7fb9;
     border: 71px none #fff;
     border-radius: 31px;
     background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.2) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.2) 50%,rgba(255,255,255,.2) 75%,transparent 75%,transparent)!important
@@ -687,14 +687,14 @@ textarea.as2020 {
 }
 
 ul.nav.nav-tabs>li>a {
-    margin: 0 0 0 13px;
+    margin: 0 0 0 14px !important;
     color: #fff;
     border: 0;
     border-radius: 0;
     display: initial;
     width: 98%;
     float: left;
-    padding: 2px 0 0!important;
+    padding: 0px 0px 0!important;
     text-align: center;
     border-style: solid;
     border-right: 5px solid;
@@ -720,12 +720,12 @@ ul.nav.nav-tabs>li.active>a {
     border-left-style: inherit;
     border-right-style: ridge;
     background: #6b2bf1!important;
-    margin: 32px 2px 3px -182px;
+    /* margin: 32px 2px 3px -182px; */
 }
 
 ul.nav.nav-tabs>li {
     width: 38%;
-    margin: -1px 59px 6px -13px
+    margin: -1px 61px 6px -13px;
 }
 
 ul.nav.nav-tabs>li>.fa-user-plus:before,ul.nav.nav-tabs>li>.fa-user:before,ul.nav.nav-tabs>li>.fa-user:before {
@@ -837,7 +837,7 @@ div#tlogins button.btn.btn-primary {
     right: 83px;
     height: 28px;
     padding: 0 0 3px;
-    border-radius: 7%!important;
+    border-radius: 1px!important;
     position: inherit;
     border-right: 4px dotted;
     border-left: 4px dotted;
@@ -978,7 +978,7 @@ a#asim7 {
     border-radius: 0px!important;
 }
 
-a#asim7,.ae.fa.label.label-primary.fa-user,div#tlogins button.btn.btn-primary,#as43,ul.nav.nav-tabs>li.active>a,ul.nav.nav-tabs,ul.nav.nav-tabs>li>a,.label-danger,.broadcasters,a.btn.minix.fa.fa-comment,button.btn,.label-primary,.btn-primary,.bg-primary,.label-primary:hover,.btn-primary:hover,.btn-primary:focus,label.fl.label.loginstat {border-radius: 0px;border: 1px solid;}
+a#asim7,.ae.fa.label.label-primary.fa-user,div#tlogins button.btn.btn-primary,#as43,ul.nav.nav-tabs>li.active>a,ul.nav.nav-tabs,ul.nav.nav-tabs>li>a,.label-danger,.broadcasters,a.btn.minix.fa.fa-comment,button.btn,.label-primary,.btn-primary,.bg-primary,.label-primary:hover,.btn-primary:hover,.btn-primary:focus,label.fl.label.loginstat {border-radius: 0px;}
 
 .bg-primary {
     border-radius: 70px 70px 0 0px!important;
@@ -987,3 +987,4 @@ a#asim7,.ae.fa.label.label-primary.fa-user,div#tlogins button.btn.btn-primary,#a
 
 
 #tlogins .fa-eye{margin: 44px 0px 0px 0px!important;}
+#settings .label.label-primary{border: 1px solid;}
