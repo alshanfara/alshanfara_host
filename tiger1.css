@@ -1,5 +1,5 @@
 font.asim11 {
-    background-color: #6b2bf1;
+    background-color: #e68eab;
     padding: 1px 0 2px;
     color: #fff;
     border-radius: 1px;
@@ -32,11 +32,12 @@ font.asim11 {
 } 
 
 .fl.nosel.label.pnhead {
-    background: #008faf!important;
-    border-radius: 20px;
+    background: #d73f70!important;
+    border-radius: 0px;
     font-family: 'jazeera',FontAwesome;
     font-size: 14px!important;
-    box-shadow: inset -1px -1px 1px #6b2bf1, 0 0 8px rgb(255 255 255);
+    box-shadow: inset -1px -1px 1px #7a7a7a, 0 0 8px rgb(255 255 255);
+    width: 54%;
 }
 
 .broadcasters>div>.prod {
@@ -45,7 +46,7 @@ font.asim11 {
 }
 
 .light {
-    background: repeating-linear-gradient(45deg,rgba(255,255,255,.8),rgb(255,255,255) 100px,#ffffffb0 0,#fff6f699 200px),repeating-linear-gradient(-45deg,rgba(255,255,255,.5),rgba(255,255,255,.93) 100px,#b3adadd1 0,#ffffffe6 200px)!important
+    /* background: repeating-linear-gradient(45deg,rgba(255,255,255,.8),rgb(255,255,255) 100px,#ffffffb0 0,#fff6f699 200px),repeating-linear-gradient(-45deg,rgba(255,255,255,.5),rgba(255,255,255,.93) 100px,#b3adadd1 0,#ffffffe6 200px)!important; */
 }
 
 .fl.ustat {
@@ -55,12 +56,12 @@ font.asim11 {
 }
 
 .fitimg.fl.borderg.spic.corner.hand {
-    background-size: 100% 100%;
-    width: 200px!important;
-    padding: 100px!important;
-    margin-left: 11%!important;
-    border: 2px solid #a3a3a378!important;
-    border-radius: 100px!important
+    /* background-size: 100% 100%; */
+    /* width: 200px!important; */
+    /* padding: 100px!important; */
+    /* margin-left: 11%!important; */
+    /* border: 2px solid #a3a3a378!important; */
+    /* border-radius: 100px!important; */
 }
 
 label.tc.border.btn.label-info.fl {
@@ -146,7 +147,7 @@ input {
 }
 
 span.minix.badge.border,span.bwall.minix.badge.border,span.brooms.minix.badge.border {
-    display: none!important
+    /* display: none!important; */
 }
 
 span.busers.minix.badge.border {
@@ -154,7 +155,7 @@ span.busers.minix.badge.border {
 }
 
 span.bwall.minix.badge.border,span.brooms.minix.badge.border {
-    display: none!important
+    /* display: none!important; */
 }
 
 .checkbox label {
@@ -198,23 +199,23 @@ div#tlogins button.btn.btn-primary {
     padding: 7px 5px 5px 13px;
     border-radius: 0;
     border-right-width: medium;
-    background: #008faf!important;
-    margin: 0px 0px 0px -3px !important;
+    background: #d73f70!important;
+    /* margin: 0px 0px 0px -3px !important; */
 }
 
 .ae.fa.label.fa-commenting-o.label-primary {
     padding: 7px 5px 5px 13px;
-    margin-left: -4px!important;
+    /* margin-left: -4px!important; */
     border-radius: 0;
     border-right-width: medium;
-    background: #008FB0!important;
+    background: #d73f70!important;
 }
 
 .ae.fa.label.label-primary.fa-users {
     border-right-width: medium padding:7px 5px 5px 13px;
     border-radius: 0;
-    margin-left: -3px!important;
-    background: #008faf!important;
+    /* margin-left: -3px!important; */
+    background: #d73f70!important;
 }
 
 .fa-commenting-o:before {
@@ -223,10 +224,10 @@ div#tlogins button.btn.btn-primary {
 
 .ae.fa.chats.label.fa-comment.label-primary {
     padding: 8px 13px 5px;
-    margin-left: -7px!important;
+    /* margin-left: -7px!important; */
     border-radius: 0;
     border-right-width: medium;
-    background: #008faf!important;
+    background: #d73f70!important;
 }
 
 .ae.fa.label.fa-commenting-o.label-warning {
@@ -394,12 +395,12 @@ input[type="asim"] {
 }
 
 .fa-user:before {
-    margin-right: 4px
+    margin-right: 4px;
 }
 
 .label:empty {
     /* display:none!important */
-    background: #008faf!important;
+    background: #d73f70!important;
     border-radius: 2px;
     margin: 1px -3px 0;
     border-right: 3px solid #fff;
@@ -489,7 +490,7 @@ label.fl.label.loginstat {
     margin-left: -4px!important;
     -webkit-transform: matrix(1,0,0,1,0,140)!important;
     color: #fff;
-    background: #008faf;
+    background: linear-gradient(90deg,#F5749E 0,#ef759c 10%,#d73f70 51%,#d73f70 89%,#F5749E 100%);
     min-width: 28px!important;
 }
 
@@ -536,13 +537,13 @@ label.label.label-primary.mini.fl {
     border-bottom: 1px solid #ebd33e!important;
     font-family: 'jazeera',FontAwesome;
     font-size: 11px!important;
-    background: #008faf!important;
+    background: linear-gradient(90deg,#F5749E 0,#ef759c 10%,#d73f70 51%,#d73f70 89%,#F5749E 100%);
 }
 
 .lonline.light.break {
     outline: #fff0 solid 1px!important;
     background-color: #1391a712!important;
-    background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.2) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.2) 50%,rgba(255,255,255,.2) 75%,transparent 75%,transparent)!important
+    /* background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.2) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.2) 50%,rgba(255,255,255,.2) 75%,transparent 75%,transparent)!important; */
 }
 
 div#tlogins {
@@ -603,7 +604,7 @@ div#tlogins::-webkit-scrollbar-button {
 }
 
 div#tlogins::-webkit-scrollbar-thumb {
-    background: #0d7fb9;
+    background: #d63f70;
     border: 71px none #fff;
     border-radius: 31px;
     background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.2) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.2) 50%,rgba(255,255,255,.2) 75%,transparent 75%,transparent)!important
@@ -705,7 +706,7 @@ ul.nav.nav-tabs>li>a {
     border-right-style: ridge;
     font-family: 'jazeera',FontAwesome;
     border-right-width: medium;
-    background: #008faf!important;
+    background: linear-gradient(90deg,#F5749E 0,#ef759c 10%,#d73f70 51%,#d73f70 89%,#F5749E 100%);
 }
 
 ul.nav.nav-tabs>li.active>a {
@@ -719,7 +720,7 @@ ul.nav.nav-tabs>li.active>a {
     border-color: #fff;
     border-left-style: inherit;
     border-right-style: ridge;
-    background: #6b2bf1!important;
+    background: linear-gradient(90deg,#F5749E 0,#ef759c 10%,#d73f70 51%,#d73f70 89%,#F5749E 100%);
     /* margin: 32px 2px 3px -182px; */
 }
 
@@ -788,7 +789,7 @@ ul.nav.nav-tabs {
     margin-top: 19px!important;
     border-left: 2px solid #ababab;
     border-right: 2px solid #ababab;
-    background-image: -webkit-linear-gradient( 45deg ,#692df0 25%,#1679bd 25%,#0189b4 50%,#b2cfe4 50%,#b2cfe4 75%,#b2cfe4 75%,#b2cfe4)!important;
+    background-image: -webkit-linear-gradient( 45deg ,#f0729b 25%,#d73f70 25%,#d63f70 50%,#e16a91bd 50%,#e16a91bd 75%,#e16a91bd 75%,#e16a91bd)!important;
     margin: 24px 0px 0 0 !important;
     width: 100%;
 }
@@ -799,7 +800,7 @@ div#l1 {
 
 font.asim12 {
     border: 1px dotted#f0ad4e;
-    background-color: #6b2bf1;
+    background-color: #e68eab;
     padding: 1px 10px 3px 4px;
     color: #fff;
     border-radius: 1px;
@@ -826,7 +827,7 @@ font.asim12 {
     margin-right: -1px;
     padding: 2px 0 0;
     line-height: 14px;
-    background: #008faf!important;
+    background: linear-gradient(90deg,#F5749E 0,#ef759c 10%,#d73f70 51%,#d73f70 89%,#F5749E 100%);
     border-right: 2px solid #ebd33e;
     width: auto;
 }
@@ -844,7 +845,7 @@ div#tlogins button.btn.btn-primary {
     border-style: dotted double;
     font-family: jazeera,FontAwesome;
     border-right-width: medium;
-    background: #008faf!important;
+    background: linear-gradient(90deg,#F5749E 0,#ef759c 10%,#d73f70 51%,#d73f70 89%,#F5749E 100%);
     margin: 7px 0 0 0 !important;
 }
 
@@ -864,7 +865,7 @@ label.asim.ae.fa.label.label-primary {
     border-left: 4px solid;
     border-left-style: groove;
     border-right-width: medium;
-    background: #008faf!important;
+    background: #d73f70!important;
 }
 
 .tbox {
@@ -902,7 +903,7 @@ label.asim.ae.fa.label.label-primary {
 }
 
 .fa-user:before {
-    content: "\f02e"
+    /* content: "\f02e"; */
 }
 .fa-user-plus:before {
 
@@ -972,9 +973,9 @@ a#asim7 {
     margin-left: -6px;
     border-radius: 0;
     background-repeat: repeat;
-    border-top: 4px solid #6b2bf1 !important;
+    /* border-top: 4px solid #fbebf0 !important; */
     -webkit-transform: matrix(1,0,0,1,0,-18)!important;
-    background: #008faf!important;
+    background: linear-gradient(90deg,#F5749E 0,#ef759c 10%,#d73f70 51%,#d73f70 89%,#F5749E 100%);
     border-radius: 0px!important;
 }
 
@@ -988,3 +989,6 @@ a#asim7,.ae.fa.label.label-primary.fa-user,div#tlogins button.btn.btn-primary,#a
 
 #tlogins .fa-eye{margin: 44px 0px 0px 0px!important;}
 #settings .label.label-primary{border: 1px solid;}
+#d0 .label-primary, #d0 .btn-primary{
+    border:1px solid #fff!important
+}
